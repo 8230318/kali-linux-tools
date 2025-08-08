@@ -9,3 +9,6 @@ deb http://ftp.halifax.rwth-aachen.de/kali/ kali-experimental main contrib non-f
 deb-src http://ftp.halifax.rwth-aachen.de/kali/ kali-experimental main contrib non-free
 deb-src http://ftp.halifax.rwth-aachen.de/kali/ kali-rolling main contrib non-free
 deb http://ftp.halifax.rwth-aachen.de/kali/ kali-bleeding-edge main contrib non-free
+
+# for kali keyerror
+sudo wget https://archive.kali.org/archive-keyring.gpg -O /usr/share/keyrings/kali-archive-keyring.gpg
